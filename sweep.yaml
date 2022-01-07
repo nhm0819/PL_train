@@ -1,0 +1,12 @@
+program: pl_train.py
+method: grid
+metric:
+  goal: minimize
+  name: val_loss
+parameters:
+  train_image_sizes:
+    values: [[256, 288, 320, 380], [192, 256, 320, 380], [192, 256, 320, 352]]
+  lr:
+    values: [0.001, 0.01, 0.0005]
+  precision:
+    values: [16, 32]
