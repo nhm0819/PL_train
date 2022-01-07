@@ -1,4 +1,4 @@
-# PL_train
+# Pytorch Lightning - image classification
 
 ### settings
  - efficientnet b4
