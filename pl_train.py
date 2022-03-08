@@ -96,7 +96,8 @@ def main():
                        checkpoint_callback], # see Callbacks section
             precision=16,
             check_val_every_n_epoch= args.checkpoint,
-            strategy='ddp'
+            strategy='ddp',
+            auto_scale_batch_size=True
         )
 
 
