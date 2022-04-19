@@ -9,8 +9,8 @@ import torch
 import pytorch_lightning as pl
 
 from pl_model import pl_classifier
-from logger import Logger
-from datamodule import WireDataModule
+from pl_logger import Logger
+from pl_datamodule import WireDataModule
 import argparse
 import random
 import os
